@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAJA GYM</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap" rel="stylesheet">
+    
+</head>
+<style>
+    /* css reset */
+    body {
+        font-family: 'Baloo Bhaina 2', cursive;
+        margin: 0px;
+        padding: 0px;
+        background-image: url("https://cdn.pixabay.com/photo/2016/11/22/22/25/abs-1850926_960_720.jpg");
+        color: blanchedalmond;
+        background-size: cover;
+
+    }
+
+    .left {
+        /* border: 1px solid red; */
+        display: inline-block;
+        position: absolute;
+        left: 40px;
+        top: 10px;
+    }
+
+    .left img {
+        width: 110px;
+        filter: invert(100%);
+    }
+
+    .left div {
+        text-align: center;
+        line-height: 0px;
+    }
+
+    .mid {
+        display: block;
+        width: 50%;
+        margin: auto;
+        margin-top: 10px;
+        /* border: 1px solid rgb(12, 236, 23); */
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar ul {}
+
+    .navbar li {
+        display: inline-block;
+        padding: 10px 31px 10px 30px;
+        font-size: 15px;
+    }
+
+    .navbar li a {
+        display: inline-block;
+        text-decoration: none;
+        color: blanchedalmond;
+        /* font-size: 50px; */
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        color: grey;
+        text-decoration: underline;
+    }
+
+    .right {
+        /* border: 1px solid rgb(83, 17, 236); */
+        display: inline-block;
+        position: absolute;
+        right: 20px;
+        top: 22px;
+    }
+
+    .btn {
+        font-family: 'Baloo Bhaina 2', cursive;
+        background-color: grey;
+        margin: 0px 5px;
+        padding: 4px 15px;
+        color: blanchedalmond;
+        border: 2px solid black;
+        border-radius: 10px;
+        cursor: pointer;
+
+    }
+
+    .btn:hover {
+        background-color: rgb(37, 36, 36);
+    }
+
+    .container {
+        border: 1px solid whitesmoke;
+        margin: 80px 84px;
+        border-radius: 12px;
+        padding: 0px 90px 90px 90px;
+        width: 45%;
+        box-sizing: border-box;
+    }
+    
+    .form-group input{
+        border: 2px solid black;
+    text-align: center;
+    padding: 2px;
+    margin: 9px auto;
+    width: 400px;
+    border-radius: 10px;
+    display: block;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 17px;
+    font-weight: bolder;
+}
+.container h2{
+    text-align: center;
+   
+    
+}
+.container button{
+    display: block;
+    width: 400px;
+    margin: auto;
+    padding: 2px;
+}
+    
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="https://cdn.pixabay.com/photo/2016/05/17/21/56/weight-1399281_960_720.png" alt="logo">
+            <div>
+                RAJA FITNESS
+            </div>
+        </div>
+        <div class="mid">
+            <div class="navbar">
+                <ul>
+                    <li><a href="#" class="active">HOME</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">FITNESS CALCULATIOR</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="right">
+            <button class="btn">CALL US NOW</button>
+            <button class="btn">EMAIL US</button>
+        </div>
+    </header>
+    <div class="container">
+        <h2>BEST GYM IN MANSEHRA</h2>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="ENTER NAME" id="">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="ENTER AGE" id="">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="ENTER GENDER" id="">
+            </div>
+            <div class="form-group" style=''>
+                <input type="text" name="" placeholder="ENTER LOCATION" id="">
+            </div>
+        </form>
+        <button class="btn">SUBMIT NOW</button>
+       
+    </div>
+
+</body>
+</html>
+
+
